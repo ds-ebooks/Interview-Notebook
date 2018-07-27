@@ -1,0 +1,1271 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Leetcode-Database 题解 | 秋招面试笔记 </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./Linux.html" />
+    
+    
+    <link rel="prev" href="./Leetcode 题解.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="9"
+        data-chapter-title="Leetcode-Database 题解"
+        data-filepath="Leetcode-Database 题解.md"
+        data-basepath="."
+        data-revision="Fri Jul 27 2018 09:46:41 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="Git.html">
+            
+                
+                    <a href="./Git.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Git
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="HTTP.html">
+            
+                
+                    <a href="./HTTP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        HTTP
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Java IO.html">
+            
+                
+                    <a href="./Java IO.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Java IO
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="Java 基础.html">
+            
+                
+                    <a href="./Java 基础.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Java 基础
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="Java 容器.html">
+            
+                
+                    <a href="./Java 容器.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Java 容器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="Java 并发.html">
+            
+                
+                    <a href="./Java 并发.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Java 并发
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="Java 虚拟机.html">
+            
+                
+                    <a href="./Java 虚拟机.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Java 虚拟机
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="Leetcode 题解.html">
+            
+                
+                    <a href="./Leetcode 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Leetcode 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="9" data-path="Leetcode-Database 题解.html">
+            
+                
+                    <a href="./Leetcode-Database 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Leetcode-Database 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="Linux.html">
+            
+                
+                    <a href="./Linux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Linux
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="MySQL.html">
+            
+                
+                    <a href="./MySQL.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        My SQL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="Redis.html">
+            
+                
+                    <a href="./Redis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        Redis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="Socket.html">
+            
+                
+                    <a href="./Socket.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Socket
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="SQL.html">
+            
+                
+                    <a href="./SQL.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        SQL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="一致性.html">
+            
+                
+                    <a href="./一致性.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        一致性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="代码可读性.html">
+            
+                
+                    <a href="./代码可读性.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        代码可读性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="17" data-path="代码风格规范.html">
+            
+                
+                    <a href="./代码风格规范.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>17.</b>
+                        
+                        代码风格规范
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="18" data-path="分布式问题分析.html">
+            
+                
+                    <a href="./分布式问题分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.</b>
+                        
+                        分布式问题分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="19" data-path="剑指 offer 题解.html">
+            
+                
+                    <a href="./剑指 offer 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.</b>
+                        
+                        剑指 offer 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="20" data-path="数据库系统原理.html">
+            
+                
+                    <a href="./数据库系统原理.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>20.</b>
+                        
+                        数据库系统原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="21" data-path="正则表达式.html">
+            
+                
+                    <a href="./正则表达式.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>21.</b>
+                        
+                        正则表达式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="22" data-path="算法.html">
+            
+                
+                    <a href="./算法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>22.</b>
+                        
+                        算法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="23" data-path="计算机操作系统.html">
+            
+                
+                    <a href="./计算机操作系统.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>23.</b>
+                        
+                        计算机操作系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="24" data-path="计算机网络.html">
+            
+                
+                    <a href="./计算机网络.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>24.</b>
+                        
+                        计算机网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="25" data-path="设计模式.html">
+            
+                
+                    <a href="./设计模式.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>25.</b>
+                        
+                        设计模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="26" data-path="重构.html">
+            
+                
+                    <a href="./重构.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>26.</b>
+                        
+                        重构
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="27" data-path="面向对象思想.html">
+            
+                
+                    <a href="./面向对象思想.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>27.</b>
+                        
+                        面向对象思想
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >秋招面试笔记 </a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="leetcodedatabase-&#x9898;&#x89E3;">Leetcode-Database &#x9898;&#x89E3;</h1>
+<p>&#x539F;&#x4F5C;&#x8005;github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+<p>PDF&#x5236;&#x4F5C;github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+<h1 id="595-big-countries">595. Big Countries</h1>
+<p><a href="https://leetcode.com/problems/big-countries/description/" target="_blank">https://leetcode.com/problems/big-countries/description/</a></p>
+<h2 id="description">Description</h2>
+<pre><code class="lang-html">+-----------------+------------+------------+--------------+---------------+
+| name            | continent  | area       | population   | gdp           |
++-----------------+------------+------------+--------------+---------------+
+| Afghanistan     | Asia       | 652230     | 25500100     | 20343000      |
+| Albania         | Europe     | 28748      | 2831741      | 12960000      |
+| Algeria         | Africa     | 2381741    | 37100000     | 188681000     |
+| Andorra         | Europe     | 468        | 78115        | 3712000       |
+| Angola          | Africa     | 1246700    | 20609294     | 100990000     |
++-----------------+------------+------------+--------------+---------------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x9762;&#x79EF;&#x8D85;&#x8FC7; 3,000,000 &#x6216;&#x8005;&#x4EBA;&#x53E3;&#x6570;&#x8D85;&#x8FC7; 25,000,000 &#x7684;&#x56FD;&#x5BB6;&#x3002;</p>
+<pre><code class="lang-html">+--------------+-------------+--------------+
+| name         | population  | area         |
++--------------+-------------+--------------+
+| Afghanistan  | 25500100    | 652230       |
+| Algeria      | 37100000    | 2381741      |
++--------------+-------------+--------------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> World;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> World ( <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), continent <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), area <span class="hljs-built_in">INT</span>, population <span class="hljs-built_in">INT</span>, gdp <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> World ( <span class="hljs-keyword">NAME</span>, continent, area, population, gdp )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-string">&apos;Afghanistan&apos;</span>, <span class="hljs-string">&apos;Asia&apos;</span>, <span class="hljs-string">&apos;652230&apos;</span>, <span class="hljs-string">&apos;25500100&apos;</span>, <span class="hljs-string">&apos;203430000&apos;</span> ),
+    ( <span class="hljs-string">&apos;Albania&apos;</span>, <span class="hljs-string">&apos;Europe&apos;</span>, <span class="hljs-string">&apos;28748&apos;</span>, <span class="hljs-string">&apos;2831741&apos;</span>, <span class="hljs-string">&apos;129600000&apos;</span> ),
+    ( <span class="hljs-string">&apos;Algeria&apos;</span>, <span class="hljs-string">&apos;Africa&apos;</span>, <span class="hljs-string">&apos;2381741&apos;</span>, <span class="hljs-string">&apos;37100000&apos;</span>, <span class="hljs-string">&apos;1886810000&apos;</span> ),
+    ( <span class="hljs-string">&apos;Andorra&apos;</span>, <span class="hljs-string">&apos;Europe&apos;</span>, <span class="hljs-string">&apos;468&apos;</span>, <span class="hljs-string">&apos;78115&apos;</span>, <span class="hljs-string">&apos;37120000&apos;</span> ),
+    ( <span class="hljs-string">&apos;Angola&apos;</span>, <span class="hljs-string">&apos;Africa&apos;</span>, <span class="hljs-string">&apos;1246700&apos;</span>, <span class="hljs-string">&apos;20609294&apos;</span>, <span class="hljs-string">&apos;1009900000&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">name</span>,
+    population,
+    area
+<span class="hljs-keyword">FROM</span>
+    World
+<span class="hljs-keyword">WHERE</span>
+    area &gt; <span class="hljs-number">3000000</span>
+    <span class="hljs-keyword">OR</span> population &gt; <span class="hljs-number">25000000</span>;</span>
+</code></pre>
+<h1 id="627-swap-salary">627. Swap Salary</h1>
+<p><a href="https://leetcode.com/problems/swap-salary/description/" target="_blank">https://leetcode.com/problems/swap-salary/description/</a></p>
+<h2 id="description">Description</h2>
+<pre><code class="lang-html">| id | name | sex | salary |
+|----|------|-----|--------|
+| 1  | A    | m   | 2500   |
+| 2  | B    | f   | 1500   |
+| 3  | C    | m   | 5500   |
+| 4  | D    | f   | 500    |
+</code></pre>
+<p>&#x53EA;&#x7528;&#x4E00;&#x4E2A; SQL &#x67E5;&#x8BE2;&#xFF0C;&#x5C06; sex &#x5B57;&#x6BB5;&#x53CD;&#x8F6C;&#x3002;</p>
+<pre><code class="lang-html">| id | name | sex | salary |
+|----|------|-----|--------|
+| 1  | A    | f   | 2500   |
+| 2  | B    | m   | 1500   |
+| 3  | C    | f   | 5500   |
+| 4  | D    | m   | 500    |
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> salary;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> salary ( <span class="hljs-keyword">id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">100</span> ), sex <span class="hljs-built_in">CHAR</span> ( <span class="hljs-number">1</span> ), salary <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> salary ( <span class="hljs-keyword">id</span>, <span class="hljs-keyword">NAME</span>, sex, salary )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-string">&apos;1&apos;</span>, <span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;m&apos;</span>, <span class="hljs-string">&apos;2500&apos;</span> ),
+    ( <span class="hljs-string">&apos;2&apos;</span>, <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;f&apos;</span>, <span class="hljs-string">&apos;1500&apos;</span> ),
+    ( <span class="hljs-string">&apos;3&apos;</span>, <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;m&apos;</span>, <span class="hljs-string">&apos;5500&apos;</span> ),
+    ( <span class="hljs-string">&apos;4&apos;</span>, <span class="hljs-string">&apos;D&apos;</span>, <span class="hljs-string">&apos;f&apos;</span>, <span class="hljs-string">&apos;500&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">UPDATE</span> salary
+<span class="hljs-keyword">SET</span> sex = <span class="hljs-built_in">CHAR</span> ( <span class="hljs-keyword">ASCII</span>(sex) ^ <span class="hljs-keyword">ASCII</span>( <span class="hljs-string">&apos;m&apos;</span> ) ^ <span class="hljs-keyword">ASCII</span>( <span class="hljs-string">&apos;f&apos;</span> ) );</span>
+</code></pre>
+<h1 id="620-not-boring-movies">620. Not Boring Movies</h1>
+<p><a href="https://leetcode.com/problems/not-boring-movies/description/" target="_blank">https://leetcode.com/problems/not-boring-movies/description/</a></p>
+<h2 id="description">Description</h2>
+<pre><code class="lang-html">+---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   1     | War       |   great 3D   |   8.9     |
+|   2     | Science   |   fiction    |   8.5     |
+|   3     | irish     |   boring     |   6.2     |
+|   4     | Ice song  |   Fantacy    |   8.6     |
+|   5     | House card|   Interesting|   9.1     |
++---------+-----------+--------------+-----------+
+</code></pre>
+<p>&#x67E5;&#x627E; id &#x4E3A;&#x5947;&#x6570;&#xFF0C;&#x5E76;&#x4E14; description &#x4E0D;&#x662F; boring &#x7684;&#x7535;&#x5F71;&#xFF0C;&#x6309; rating &#x964D;&#x5E8F;&#x3002;</p>
+<pre><code class="lang-html">+---------+-----------+--------------+-----------+
+|   id    | movie     |  description |  rating   |
++---------+-----------+--------------+-----------+
+|   5     | House card|   Interesting|   9.1     |
+|   1     | War       |   great 3D   |   8.9     |
++---------+-----------+--------------+-----------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> cinema;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> cinema ( <span class="hljs-keyword">id</span> <span class="hljs-built_in">INT</span>, movie <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), description <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), rating <span class="hljs-built_in">FLOAT</span> ( <span class="hljs-number">2</span>, <span class="hljs-number">1</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> cinema ( <span class="hljs-keyword">id</span>, movie, description, rating )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;War&apos;</span>, <span class="hljs-string">&apos;great 3D&apos;</span>, <span class="hljs-number">8.9</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;Science&apos;</span>, <span class="hljs-string">&apos;fiction&apos;</span>, <span class="hljs-number">8.5</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-string">&apos;irish&apos;</span>, <span class="hljs-string">&apos;boring&apos;</span>, <span class="hljs-number">6.2</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-string">&apos;Ice song&apos;</span>, <span class="hljs-string">&apos;Fantacy&apos;</span>, <span class="hljs-number">8.6</span> ),
+    ( <span class="hljs-number">5</span>, <span class="hljs-string">&apos;House card&apos;</span>, <span class="hljs-string">&apos;Interesting&apos;</span>, <span class="hljs-number">9.1</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    *
+<span class="hljs-keyword">FROM</span>
+    cinema
+<span class="hljs-keyword">WHERE</span>
+    <span class="hljs-keyword">id</span> % <span class="hljs-number">2</span> = <span class="hljs-number">1</span>
+    <span class="hljs-keyword">AND</span> description != <span class="hljs-string">&apos;boring&apos;</span>
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span>
+    rating <span class="hljs-keyword">DESC</span>;</span>
+</code></pre>
+<h1 id="596-classes-more-than-5-students">596. Classes More Than 5 Students</h1>
+<p><a href="https://leetcode.com/problems/classes-more-than-5-students/description/" target="_blank">https://leetcode.com/problems/classes-more-than-5-students/description/</a></p>
+<h2 id="description">Description</h2>
+<pre><code class="lang-html">+---------+------------+
+| student | class      |
++---------+------------+
+| A       | Math       |
+| B       | English    |
+| C       | Math       |
+| D       | Biology    |
+| E       | Math       |
+| F       | Computer   |
+| G       | Math       |
+| H       | Math       |
+| I       | Math       |
++---------+------------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x6709;&#x4E94;&#x540D;&#x53CA;&#x4EE5;&#x4E0A; student &#x7684; class&#x3002;</p>
+<pre><code class="lang-html">+---------+
+| class   |
++---------+
+| Math    |
++---------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> courses;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> courses ( student <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), <span class="hljs-keyword">class</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> courses ( student, <span class="hljs-keyword">class</span> )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-string">&apos;A&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> ),
+    ( <span class="hljs-string">&apos;B&apos;</span>, <span class="hljs-string">&apos;English&apos;</span> ),
+    ( <span class="hljs-string">&apos;C&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> ),
+    ( <span class="hljs-string">&apos;D&apos;</span>, <span class="hljs-string">&apos;Biology&apos;</span> ),
+    ( <span class="hljs-string">&apos;E&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> ),
+    ( <span class="hljs-string">&apos;F&apos;</span>, <span class="hljs-string">&apos;Computer&apos;</span> ),
+    ( <span class="hljs-string">&apos;G&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> ),
+    ( <span class="hljs-string">&apos;H&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> ),
+    ( <span class="hljs-string">&apos;I&apos;</span>, <span class="hljs-string">&apos;Math&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    <span class="hljs-keyword">class</span>
+<span class="hljs-keyword">FROM</span>
+    courses
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span>
+    <span class="hljs-keyword">class</span>
+<span class="hljs-keyword">HAVING</span>
+    <span class="hljs-keyword">count</span>( <span class="hljs-keyword">DISTINCT</span> student ) &gt;= <span class="hljs-number">5</span>;</span>
+</code></pre>
+<h1 id="182-duplicate-emails">182. Duplicate Emails</h1>
+<p><a href="https://leetcode.com/problems/duplicate-emails/description/" target="_blank">https://leetcode.com/problems/duplicate-emails/description/</a></p>
+<h2 id="description">Description</h2>
+<p>&#x90AE;&#x4EF6;&#x5730;&#x5740;&#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+---------+
+| Id | Email   |
++----+---------+
+| 1  | a@b.com |
+| 2  | c@d.com |
+| 3  | a@b.com |
++----+---------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x91CD;&#x590D;&#x7684;&#x90AE;&#x4EF6;&#x5730;&#x5740;&#xFF1A;</p>
+<pre><code class="lang-html">+---------+
+| Email   |
++---------+
+| a@b.com |
++---------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Person;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Person ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, Email <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Person ( <span class="hljs-keyword">Id</span>, Email )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;a@b.com&apos;</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;c@d.com&apos;</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-string">&apos;a@b.com&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    Email
+<span class="hljs-keyword">FROM</span>
+    Person
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span>
+    Email
+<span class="hljs-keyword">HAVING</span>
+    <span class="hljs-keyword">COUNT</span>( * ) &gt;= <span class="hljs-number">2</span>;</span>
+</code></pre>
+<h1 id="196-delete-duplicate-emails">196. Delete Duplicate Emails</h1>
+<p><a href="https://leetcode.com/problems/delete-duplicate-emails/description/" target="_blank">https://leetcode.com/problems/delete-duplicate-emails/description/</a></p>
+<h2 id="description">Description</h2>
+<p>&#x90AE;&#x4EF6;&#x5730;&#x5740;&#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+---------+
+| Id | Email   |
++----+---------+
+| 1  | a@b.com |
+| 2  | c@d.com |
+| 3  | a@b.com |
++----+---------+
+</code></pre>
+<p>&#x5220;&#x9664;&#x91CD;&#x590D;&#x7684;&#x90AE;&#x4EF6;&#x5730;&#x5740;&#xFF1A;</p>
+<pre><code class="lang-html">+----+------------------+
+| Id | Email            |
++----+------------------+
+| 1  | john@example.com |
+| 2  | bob@example.com  |
++----+------------------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<p>&#x4E0E; 182 &#x76F8;&#x540C;&#x3002;</p>
+<h2 id="solution">Solution</h2>
+<p>&#x8FDE;&#x63A5;&#xFF1A;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DELETE</span> p1
+<span class="hljs-keyword">FROM</span>
+    Person p1,
+    Person p2
+<span class="hljs-keyword">WHERE</span>
+    p1.Email = p2.Email
+    <span class="hljs-keyword">AND</span> p1.<span class="hljs-keyword">Id</span> &gt; p2.<span class="hljs-keyword">Id</span>
+</span></code></pre>
+<p>&#x5B50;&#x67E5;&#x8BE2;&#xFF1A;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DELETE</span>
+<span class="hljs-keyword">FROM</span>
+    Person
+<span class="hljs-keyword">WHERE</span>
+    <span class="hljs-keyword">id</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">IN</span> ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">id</span> <span class="hljs-keyword">FROM</span> ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">min</span>( <span class="hljs-keyword">id</span> ) <span class="hljs-keyword">AS</span> <span class="hljs-keyword">id</span> <span class="hljs-keyword">FROM</span> Person <span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> email ) <span class="hljs-keyword">AS</span> <span class="hljs-keyword">m</span> );</span>
+</code></pre>
+<p>&#x5E94;&#x8BE5;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x4E0A;&#x8FF0;&#x89E3;&#x6CD5;&#x989D;&#x5916;&#x5D4C;&#x5957;&#x4E86;&#x4E00;&#x4E2A; SELECT &#x8BED;&#x53E5;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x8FD9;&#x4E48;&#x505A;&#xFF0C;&#x4F1A;&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#xFF1A;You can&apos;t specify target table &apos;Person&apos; for update in FROM clause&#x3002;&#x4EE5;&#x4E0B;&#x6F14;&#x793A;&#x4E86;&#x8FD9;&#x79CD;&#x9519;&#x8BEF;&#x89E3;&#x6CD5;&#x3002;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DELETE</span>
+<span class="hljs-keyword">FROM</span>
+    Person
+<span class="hljs-keyword">WHERE</span>
+    <span class="hljs-keyword">id</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">IN</span> ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">min</span>( <span class="hljs-keyword">id</span> ) <span class="hljs-keyword">AS</span> <span class="hljs-keyword">id</span> <span class="hljs-keyword">FROM</span> Person <span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> email );</span>
+</code></pre>
+<p>&#x53C2;&#x8003;&#xFF1A;<a href="https://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause" target="_blank">pMySQL Error 1093 - Can&apos;t specify target table for update in FROM clause</a></p>
+<h1 id="175-combine-two-tables">175. Combine Two Tables</h1>
+<p><a href="https://leetcode.com/problems/combine-two-tables/description/" target="_blank">https://leetcode.com/problems/combine-two-tables/description/</a></p>
+<h2 id="description">Description</h2>
+<p>Person &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| PersonId    | int     |
+| FirstName   | varchar |
+| LastName    | varchar |
++-------------+---------+
+PersonId is the primary key column for this table.
+</code></pre>
+<p>Address &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| AddressId   | int     |
+| PersonId    | int     |
+| City        | varchar |
+| State       | varchar |
++-------------+---------+
+AddressId is the primary key column for this table.
+</code></pre>
+<p>&#x67E5;&#x627E; FirstName, LastName, City, State &#x6570;&#x636E;&#xFF0C;&#x800C;&#x4E0D;&#x7BA1;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x6709;&#x6CA1;&#x6709;&#x586B;&#x5730;&#x5740;&#x4FE1;&#x606F;&#x3002;</p>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Person;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Person ( PersonId <span class="hljs-built_in">INT</span>, FirstName <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), LastName <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Address;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Address ( AddressId <span class="hljs-built_in">INT</span>, PersonId <span class="hljs-built_in">INT</span>, City <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), State <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Person ( PersonId, LastName, FirstName )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;Wang&apos;</span>, <span class="hljs-string">&apos;Allen&apos;</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Address ( AddressId, PersonId, City, State )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-string">&apos;New York City&apos;</span>, <span class="hljs-string">&apos;New York&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<p>&#x4F7F;&#x7528;&#x5DE6;&#x5916;&#x8FDE;&#x63A5;&#x3002;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    FirstName,
+    LastName,
+    City,
+    State
+<span class="hljs-keyword">FROM</span>
+    Person <span class="hljs-keyword">P</span>
+    <span class="hljs-keyword">LEFT</span> <span class="hljs-keyword">JOIN</span> Address A
+    <span class="hljs-keyword">ON</span> <span class="hljs-keyword">P</span>.PersonId = A.PersonId;</span>
+</code></pre>
+<h1 id="181-employees-earning-more-than-their-managers">181. Employees Earning More Than Their Managers</h1>
+<p><a href="https://leetcode.com/problems/employees-earning-more-than-their-managers/description/" target="_blank">https://leetcode.com/problems/employees-earning-more-than-their-managers/description/</a></p>
+<h2 id="description">Description</h2>
+<p>Employee &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+-------+--------+-----------+
+| Id | Name  | Salary | ManagerId |
++----+-------+--------+-----------+
+| 1  | Joe   | 70000  | 3         |
+| 2  | Henry | 80000  | 4         |
+| 3  | Sam   | 60000  | NULL      |
+| 4  | Max   | 90000  | NULL      |
++----+-------+--------+-----------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x6240;&#x6709;&#x5458;&#x5DE5;&#xFF0C;&#x4ED6;&#x4EEC;&#x7684;&#x85AA;&#x8D44;&#x5927;&#x4E8E;&#x5176;&#x7ECF;&#x7406;&#x85AA;&#x8D44;&#x3002;</p>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Employee;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Employee ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), Salary <span class="hljs-built_in">INT</span>, ManagerId <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Employee ( <span class="hljs-keyword">Id</span>, <span class="hljs-keyword">NAME</span>, Salary, ManagerId )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;Joe&apos;</span>, <span class="hljs-number">70000</span>, <span class="hljs-number">3</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;Henry&apos;</span>, <span class="hljs-number">80000</span>, <span class="hljs-number">4</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-string">&apos;Sam&apos;</span>, <span class="hljs-number">60000</span>, <span class="hljs-literal">NULL</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-string">&apos;Max&apos;</span>, <span class="hljs-number">90000</span>, <span class="hljs-literal">NULL</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    E1.<span class="hljs-keyword">NAME</span> <span class="hljs-keyword">AS</span> Employee
+<span class="hljs-keyword">FROM</span>
+    Employee E1
+    <span class="hljs-keyword">INNER</span> <span class="hljs-keyword">JOIN</span> Employee E2
+    <span class="hljs-keyword">ON</span> E1.ManagerId = E2.<span class="hljs-keyword">Id</span>
+    <span class="hljs-keyword">AND</span> E1.Salary &gt; E2.Salary;</span>
+</code></pre>
+<h1 id="183-customers-who-never-order">183. Customers Who Never Order</h1>
+<p><a href="https://leetcode.com/problems/customers-who-never-order/description/" target="_blank">https://leetcode.com/problems/customers-who-never-order/description/</a></p>
+<h2 id="description">Description</h2>
+<p>Curstomers &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+-------+
+| Id | Name  |
++----+-------+
+| 1  | Joe   |
+| 2  | Henry |
+| 3  | Sam   |
+| 4  | Max   |
++----+-------+
+</code></pre>
+<p>Orders &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+------------+
+| Id | CustomerId |
++----+------------+
+| 1  | 3          |
+| 2  | 1          |
++----+------------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x6CA1;&#x6709;&#x8BA2;&#x5355;&#x7684;&#x987E;&#x5BA2;&#x4FE1;&#x606F;&#xFF1A;</p>
+<pre><code class="lang-html">+-----------+
+| Customers |
++-----------+
+| Henry     |
+| Max       |
++-----------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Customers;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Customers ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Orders;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Orders ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, CustomerId <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Customers ( <span class="hljs-keyword">Id</span>, <span class="hljs-keyword">NAME</span> )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;Joe&apos;</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;Henry&apos;</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-string">&apos;Sam&apos;</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-string">&apos;Max&apos;</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Orders ( <span class="hljs-keyword">Id</span>, CustomerId )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-number">3</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-number">1</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<p>&#x5DE6;&#x5916;&#x94FE;&#x63A5;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    <span class="hljs-keyword">C</span>.<span class="hljs-keyword">Name</span> <span class="hljs-keyword">AS</span> Customers
+<span class="hljs-keyword">FROM</span>
+    Customers <span class="hljs-keyword">C</span>
+    <span class="hljs-keyword">LEFT</span> <span class="hljs-keyword">JOIN</span> Orders O
+    <span class="hljs-keyword">ON</span> <span class="hljs-keyword">C</span>.<span class="hljs-keyword">Id</span> = O.CustomerId
+<span class="hljs-keyword">WHERE</span>
+    O.CustomerId <span class="hljs-keyword">IS</span> <span class="hljs-literal">NULL</span>;</span>
+</code></pre>
+<p>&#x5B50;&#x67E5;&#x8BE2;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    <span class="hljs-keyword">Name</span> <span class="hljs-keyword">AS</span> Customers
+<span class="hljs-keyword">FROM</span>
+    Customers
+<span class="hljs-keyword">WHERE</span>
+    <span class="hljs-keyword">Id</span> <span class="hljs-keyword">NOT</span> <span class="hljs-keyword">IN</span> ( <span class="hljs-keyword">SELECT</span> CustomerId <span class="hljs-keyword">FROM</span> Orders );</span>
+</code></pre>
+<h1 id="184-department-highest-salary">184. Department Highest Salary</h1>
+<p><a href="https://leetcode.com/problems/department-highest-salary/description/" target="_blank">https://leetcode.com/problems/department-highest-salary/description/</a></p>
+<h2 id="description">Description</h2>
+<p>Employee &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+-------+--------+--------------+
+| Id | Name  | Salary | DepartmentId |
++----+-------+--------+--------------+
+| 1  | Joe   | 70000  | 1            |
+| 2  | Henry | 80000  | 2            |
+| 3  | Sam   | 60000  | 2            |
+| 4  | Max   | 90000  | 1            |
++----+-------+--------+--------------+
+</code></pre>
+<p>Department &#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+----------+
+| Id | Name     |
++----+----------+
+| 1  | IT       |
+| 2  | Sales    |
++----+----------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x4E00;&#x4E2A; Department &#x4E2D;&#x6536;&#x5165;&#x6700;&#x9AD8;&#x8005;&#x7684;&#x4FE1;&#x606F;&#xFF1A;</p>
+<pre><code class="lang-html">+------------+----------+--------+
+| Department | Employee | Salary |
++------------+----------+--------+
+| IT         | Max      | 90000  |
+| Sales      | Henry    | 80000  |
++------------+----------+--------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> Employee;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Employee ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ), Salary <span class="hljs-built_in">INT</span>, DepartmentId <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">IF</span> <span class="hljs-keyword">EXISTS</span> Department;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Department ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">NAME</span> <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Employee ( <span class="hljs-keyword">Id</span>, <span class="hljs-keyword">NAME</span>, Salary, DepartmentId )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;Joe&apos;</span>, <span class="hljs-number">70000</span>, <span class="hljs-number">1</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;Henry&apos;</span>, <span class="hljs-number">80000</span>, <span class="hljs-number">2</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-string">&apos;Sam&apos;</span>, <span class="hljs-number">60000</span>, <span class="hljs-number">2</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-string">&apos;Max&apos;</span>, <span class="hljs-number">90000</span>, <span class="hljs-number">1</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Department ( <span class="hljs-keyword">Id</span>, <span class="hljs-keyword">NAME</span> )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-string">&apos;IT&apos;</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-string">&apos;Sales&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x4E34;&#x65F6;&#x8868;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x90E8;&#x95E8;&#x5458;&#x5DE5;&#x7684;&#x6700;&#x5927;&#x85AA;&#x8D44;&#x3002;&#x53EF;&#x4EE5;&#x5BF9;&#x90E8;&#x95E8;&#x8FDB;&#x884C;&#x5206;&#x7EC4;&#xFF0C;&#x7136;&#x540E;&#x4F7F;&#x7528; MAX() &#x6C47;&#x603B;&#x51FD;&#x6570;&#x53D6;&#x5F97;&#x6700;&#x5927;&#x85AA;&#x8D44;&#x3002;</p>
+<p>&#x4E4B;&#x540E;&#x4F7F;&#x7528;&#x8FDE;&#x63A5;&#x627E;&#x5230;&#x4E00;&#x4E2A;&#x90E8;&#x95E8;&#x4E2D;&#x85AA;&#x8D44;&#x7B49;&#x4E8E;&#x4E34;&#x65F6;&#x8868;&#x4E2D;&#x6700;&#x5927;&#x85AA;&#x8D44;&#x7684;&#x5458;&#x5DE5;&#x3002;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    <span class="hljs-keyword">D</span>.<span class="hljs-keyword">NAME</span> Department,
+    <span class="hljs-keyword">E</span>.<span class="hljs-keyword">NAME</span> Employee,
+    <span class="hljs-keyword">E</span>.Salary
+<span class="hljs-keyword">FROM</span>
+    Employee <span class="hljs-keyword">E</span>,
+    Department <span class="hljs-keyword">D</span>,
+    ( <span class="hljs-keyword">SELECT</span> DepartmentId, <span class="hljs-keyword">MAX</span>( Salary ) Salary <span class="hljs-keyword">FROM</span> Employee <span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> DepartmentId ) <span class="hljs-keyword">M</span>
+<span class="hljs-keyword">WHERE</span>
+    <span class="hljs-keyword">E</span>.DepartmentId = <span class="hljs-keyword">D</span>.<span class="hljs-keyword">Id</span>
+    <span class="hljs-keyword">AND</span> <span class="hljs-keyword">E</span>.DepartmentId = <span class="hljs-keyword">M</span>.DepartmentId
+    <span class="hljs-keyword">AND</span> <span class="hljs-keyword">E</span>.Salary = <span class="hljs-keyword">M</span>.Salary;</span>
+</code></pre>
+<h1 id="176-second-highest-salary">176. Second Highest Salary</h1>
+<p><a href="https://leetcode.com/problems/second-highest-salary/description/" target="_blank">https://leetcode.com/problems/second-highest-salary/description/</a></p>
+<h2 id="description">Description</h2>
+<pre><code class="lang-html">+----+--------+
+| Id | Salary |
++----+--------+
+| 1  | 100    |
+| 2  | 200    |
+| 3  | 300    |
++----+--------+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x5DE5;&#x8D44;&#x7B2C;&#x4E8C;&#x9AD8;&#x7684;&#x5458;&#x5DE5;&#x3002;</p>
+<pre><code class="lang-html">+---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
+</code></pre>
+<p>&#x6CA1;&#x6709;&#x627E;&#x5230;&#x8FD4;&#x56DE; null &#x800C;&#x4E0D;&#x662F;&#x4E0D;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#x3002;</p>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Employee;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Employee ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, Salary <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Employee ( <span class="hljs-keyword">Id</span>, Salary )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-number">100</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-number">200</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-number">300</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<p>&#x4E3A;&#x4E86;&#x5728;&#x6CA1;&#x6709;&#x67E5;&#x627E;&#x5230;&#x6570;&#x636E;&#x65F6;&#x8FD4;&#x56DE; null&#xFF0C;&#x9700;&#x8981;&#x5728;&#x67E5;&#x8BE2;&#x7ED3;&#x679C;&#x5916;&#x9762;&#x518D;&#x5957;&#x4E00;&#x5C42; SELECT&#x3002;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> Salary <span class="hljs-keyword">FROM</span> Employee <span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> Salary <span class="hljs-keyword">DESC</span> <span class="hljs-keyword">LIMIT</span> <span class="hljs-number">1</span>, <span class="hljs-number">1</span> ) SecondHighestSalary;</span>
+</code></pre>
+<h1 id="177-nth-highest-salary">177. Nth Highest Salary</h1>
+<h2 id="description">Description</h2>
+<p>&#x67E5;&#x627E;&#x5DE5;&#x8D44;&#x7B2C; N &#x9AD8;&#x7684;&#x5458;&#x5DE5;&#x3002;</p>
+<h2 id="sql-schema">SQL Schema</h2>
+<p>&#x540C; 176&#x3002;</p>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">FUNCTION</span> getNthHighestSalary ( <span class="hljs-keyword">N</span> <span class="hljs-built_in">INT</span> ) <span class="hljs-keyword">RETURNS</span> <span class="hljs-built_in">INT</span> <span class="hljs-keyword">BEGIN</span>
+
+<span class="hljs-keyword">SET</span> <span class="hljs-keyword">N</span> = <span class="hljs-keyword">N</span> - <span class="hljs-number">1</span>;</span>
+RETURN ( <span class="hljs-operator"><span class="hljs-keyword">SELECT</span> ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">DISTINCT</span> Salary <span class="hljs-keyword">FROM</span> Employee <span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> Salary <span class="hljs-keyword">DESC</span> <span class="hljs-keyword">LIMIT</span> <span class="hljs-keyword">N</span>, <span class="hljs-number">1</span> ) );</span>
+
+<span class="hljs-operator"><span class="hljs-keyword">END</span>
+</span></code></pre>
+<h1 id="178-rank-scores">178. Rank Scores</h1>
+<p><a href="https://leetcode.com/problems/rank-scores/description/" target="_blank">https://leetcode.com/problems/rank-scores/description/</a></p>
+<h2 id="description">Description</h2>
+<p>&#x5F97;&#x5206;&#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+-------+
+| Id | Score |
++----+-------+
+| 1  | 3.50  |
+| 2  | 3.65  |
+| 3  | 4.00  |
+| 4  | 3.85  |
+| 5  | 4.00  |
+| 6  | 3.65  |
++----+-------+
+</code></pre>
+<p>&#x5C06;&#x5F97;&#x5206;&#x6392;&#x5E8F;&#xFF0C;&#x5E76;&#x7EDF;&#x8BA1;&#x6392;&#x540D;&#x3002;</p>
+<pre><code class="lang-html">+-------+------+
+| Score | Rank |
++-------+------+
+| 4.00  | 1    |
+| 4.00  | 1    |
+| 3.85  | 2    |
+| 3.65  | 3    |
+| 3.65  | 3    |
+| 3.50  | 4    |
++-------+------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> Scores;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> Scores ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, Score <span class="hljs-built_in">DECIMAL</span> ( <span class="hljs-number">3</span>, <span class="hljs-number">2</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> Scores ( <span class="hljs-keyword">Id</span>, Score )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-number">3.5</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-number">3.65</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-number">4.0</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-number">3.85</span> ),
+    ( <span class="hljs-number">5</span>, <span class="hljs-number">4.0</span> ),
+    ( <span class="hljs-number">6</span>, <span class="hljs-number">3.65</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    S1.score,
+    <span class="hljs-keyword">COUNT</span>( <span class="hljs-keyword">DISTINCT</span> S2.score ) <span class="hljs-keyword">Rank</span>
+<span class="hljs-keyword">FROM</span>
+    Scores S1
+    <span class="hljs-keyword">INNER</span> <span class="hljs-keyword">JOIN</span> Scores S2
+    <span class="hljs-keyword">ON</span> S1.score &lt;= S2.score
+<span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span>
+    S1.<span class="hljs-keyword">id</span>
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span>
+    S1.score <span class="hljs-keyword">DESC</span>;</span>
+</code></pre>
+<h1 id="180-consecutive-numbers">180. Consecutive Numbers</h1>
+<p><a href="https://leetcode.com/problems/consecutive-numbers/description/" target="_blank">https://leetcode.com/problems/consecutive-numbers/description/</a></p>
+<h2 id="description">Description</h2>
+<p>&#x6570;&#x5B57;&#x8868;&#xFF1A;</p>
+<pre><code class="lang-html">+----+-----+
+| Id | Num |
++----+-----+
+| 1  |  1  |
+| 2  |  1  |
+| 3  |  1  |
+| 4  |  2  |
+| 5  |  1  |
+| 6  |  2  |
+| 7  |  2  |
++----+-----+
+</code></pre>
+<p>&#x67E5;&#x627E;&#x8FDE;&#x7EED;&#x51FA;&#x73B0;&#x4E09;&#x6B21;&#x7684;&#x6570;&#x5B57;&#x3002;</p>
+<pre><code class="lang-html">+-----------------+
+| ConsecutiveNums |
++-----------------+
+| 1               |
++-----------------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> <span class="hljs-keyword">LOGS</span>;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-keyword">LOGS</span> ( <span class="hljs-keyword">Id</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">Num</span> <span class="hljs-built_in">INT</span> );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> <span class="hljs-keyword">LOGS</span> ( <span class="hljs-keyword">Id</span>, <span class="hljs-keyword">Num</span> )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-number">1</span>, <span class="hljs-number">1</span> ),
+    ( <span class="hljs-number">2</span>, <span class="hljs-number">1</span> ),
+    ( <span class="hljs-number">3</span>, <span class="hljs-number">1</span> ),
+    ( <span class="hljs-number">4</span>, <span class="hljs-number">2</span> ),
+    ( <span class="hljs-number">5</span>, <span class="hljs-number">1</span> ),
+    ( <span class="hljs-number">6</span>, <span class="hljs-number">2</span> ),
+    ( <span class="hljs-number">7</span>, <span class="hljs-number">2</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    <span class="hljs-keyword">DISTINCT</span> L1.<span class="hljs-keyword">num</span> ConsecutiveNums
+<span class="hljs-keyword">FROM</span>
+    <span class="hljs-keyword">Logs</span> L1,
+    <span class="hljs-keyword">Logs</span> L2,
+    <span class="hljs-keyword">Logs</span> L3
+<span class="hljs-keyword">WHERE</span> L1.<span class="hljs-keyword">id</span> = l2.<span class="hljs-keyword">id</span> - <span class="hljs-number">1</span>
+    <span class="hljs-keyword">AND</span> L2.<span class="hljs-keyword">id</span> = L3.<span class="hljs-keyword">id</span> - <span class="hljs-number">1</span>
+    <span class="hljs-keyword">AND</span> L1.<span class="hljs-keyword">num</span> = L2.<span class="hljs-keyword">num</span>
+    <span class="hljs-keyword">AND</span> l2.<span class="hljs-keyword">num</span> = l3.<span class="hljs-keyword">num</span>;</span>
+</code></pre>
+<h1 id="626-exchange-seats">626. Exchange Seats</h1>
+<p><a href="https://leetcode.com/problems/exchange-seats/description/" target="_blank">https://leetcode.com/problems/exchange-seats/description/</a></p>
+<h2 id="description">Description</h2>
+<p>seat &#x8868;&#x5B58;&#x50A8;&#x7740;&#x5EA7;&#x4F4D;&#x5BF9;&#x5E94;&#x7684;&#x5B66;&#x751F;&#x3002;</p>
+<pre><code class="lang-html">+---------+---------+
+|    id   | student |
++---------+---------+
+|    1    | Abbot   |
+|    2    | Doris   |
+|    3    | Emerson |
+|    4    | Green   |
+|    5    | Jeames  |
++---------+---------+
+</code></pre>
+<p>&#x8981;&#x6C42;&#x4EA4;&#x6362;&#x76F8;&#x90BB;&#x5EA7;&#x4F4D;&#x7684;&#x4E24;&#x4E2A;&#x5B66;&#x751F;&#xFF0C;&#x5982;&#x679C;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5EA7;&#x4F4D;&#x662F;&#x5947;&#x6570;&#xFF0C;&#x90A3;&#x4E48;&#x4E0D;&#x4EA4;&#x6362;&#x8FD9;&#x4E2A;&#x5EA7;&#x4F4D;&#x4E0A;&#x7684;&#x5B66;&#x751F;&#x3002;</p>
+<pre><code class="lang-html">+---------+---------+
+|    id   | student |
++---------+---------+
+|    1    | Doris   |
+|    2    | Abbot   |
+|    3    | Green   |
+|    4    | Emerson |
+|    5    | Jeames  |
++---------+---------+
+</code></pre>
+<h2 id="sql-schema">SQL Schema</h2>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span>
+<span class="hljs-keyword">IF</span>
+    <span class="hljs-keyword">EXISTS</span> seat;</span>
+<span class="hljs-operator"><span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> seat ( <span class="hljs-keyword">id</span> <span class="hljs-built_in">INT</span>, student <span class="hljs-built_in">VARCHAR</span> ( <span class="hljs-number">255</span> ) );</span>
+<span class="hljs-operator"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> seat ( <span class="hljs-keyword">id</span>, student )
+<span class="hljs-keyword">VALUES</span>
+    ( <span class="hljs-string">&apos;1&apos;</span>, <span class="hljs-string">&apos;Abbot&apos;</span> ),
+    ( <span class="hljs-string">&apos;2&apos;</span>, <span class="hljs-string">&apos;Doris&apos;</span> ),
+    ( <span class="hljs-string">&apos;3&apos;</span>, <span class="hljs-string">&apos;Emerson&apos;</span> ),
+    ( <span class="hljs-string">&apos;4&apos;</span>, <span class="hljs-string">&apos;Green&apos;</span> ),
+    ( <span class="hljs-string">&apos;5&apos;</span>, <span class="hljs-string">&apos;Jeames&apos;</span> );</span>
+</code></pre>
+<h2 id="solution">Solution</h2>
+<p>&#x4F7F;&#x7528;&#x591A;&#x4E2A; union&#x3002;</p>
+<pre><code class="lang-sql"><span class="hljs-operator"><span class="hljs-keyword">SELECT</span>
+    s1.<span class="hljs-keyword">id</span> - <span class="hljs-number">1</span> <span class="hljs-keyword">AS</span> <span class="hljs-keyword">id</span>,
+    s1.student 
+<span class="hljs-keyword">FROM</span>
+    seat s1 
+<span class="hljs-keyword">WHERE</span>
+    s1.<span class="hljs-keyword">id</span> <span class="hljs-keyword">MOD</span> <span class="hljs-number">2</span> = <span class="hljs-number">0</span> <span class="hljs-keyword">UNION</span>
+<span class="hljs-keyword">SELECT</span>
+    s2.<span class="hljs-keyword">id</span> + <span class="hljs-number">1</span> <span class="hljs-keyword">AS</span> <span class="hljs-keyword">id</span>,
+    s2.student 
+<span class="hljs-keyword">FROM</span>
+    seat s2 
+<span class="hljs-keyword">WHERE</span>
+    s2.<span class="hljs-keyword">id</span> <span class="hljs-keyword">MOD</span> <span class="hljs-number">2</span> = <span class="hljs-number">1</span> 
+    <span class="hljs-keyword">AND</span> s2.<span class="hljs-keyword">id</span> != ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">max</span>( s3.<span class="hljs-keyword">id</span> ) <span class="hljs-keyword">FROM</span> seat s3 ) <span class="hljs-keyword">UNION</span>
+<span class="hljs-keyword">SELECT</span>
+    s4.<span class="hljs-keyword">id</span> <span class="hljs-keyword">AS</span> <span class="hljs-keyword">id</span>,
+    s4.student 
+<span class="hljs-keyword">FROM</span>
+    seat s4 
+<span class="hljs-keyword">WHERE</span>
+    s4.<span class="hljs-keyword">id</span> <span class="hljs-keyword">MOD</span> <span class="hljs-number">2</span> = <span class="hljs-number">1</span> 
+    <span class="hljs-keyword">AND</span> s4.<span class="hljs-keyword">id</span> = ( <span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">max</span>( s5.<span class="hljs-keyword">id</span> ) <span class="hljs-keyword">FROM</span> seat s5 ) 
+<span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span>
+    <span class="hljs-keyword">id</span>;</span>
+</code></pre>
+<hr>
+<p>github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./Leetcode 题解.html" class="navigation navigation-prev " aria-label="Previous page: Leetcode 题解"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./Linux.html" class="navigation navigation-next " aria-label="Next page: Linux"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

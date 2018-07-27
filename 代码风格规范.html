@@ -1,0 +1,579 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>代码风格规范 | 秋招面试笔记 </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./分布式问题分析.html" />
+    
+    
+    <link rel="prev" href="./代码可读性.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="17"
+        data-chapter-title="代码风格规范"
+        data-filepath="代码风格规范.md"
+        data-basepath="."
+        data-revision="Fri Jul 27 2018 09:46:41 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="Git.html">
+            
+                
+                    <a href="./Git.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Git
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="HTTP.html">
+            
+                
+                    <a href="./HTTP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        HTTP
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="Java IO.html">
+            
+                
+                    <a href="./Java IO.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Java IO
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="Java 基础.html">
+            
+                
+                    <a href="./Java 基础.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Java 基础
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="Java 容器.html">
+            
+                
+                    <a href="./Java 容器.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Java 容器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="Java 并发.html">
+            
+                
+                    <a href="./Java 并发.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Java 并发
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="Java 虚拟机.html">
+            
+                
+                    <a href="./Java 虚拟机.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Java 虚拟机
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="Leetcode 题解.html">
+            
+                
+                    <a href="./Leetcode 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        Leetcode 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="Leetcode-Database 题解.html">
+            
+                
+                    <a href="./Leetcode-Database 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        Leetcode-Database 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="Linux.html">
+            
+                
+                    <a href="./Linux.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        Linux
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="MySQL.html">
+            
+                
+                    <a href="./MySQL.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        My SQL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="Redis.html">
+            
+                
+                    <a href="./Redis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        Redis
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="Socket.html">
+            
+                
+                    <a href="./Socket.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Socket
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="SQL.html">
+            
+                
+                    <a href="./SQL.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        SQL
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="一致性.html">
+            
+                
+                    <a href="./一致性.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        一致性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="16" data-path="代码可读性.html">
+            
+                
+                    <a href="./代码可读性.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>16.</b>
+                        
+                        代码可读性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="17" data-path="代码风格规范.html">
+            
+                
+                    <a href="./代码风格规范.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>17.</b>
+                        
+                        代码风格规范
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="18" data-path="分布式问题分析.html">
+            
+                
+                    <a href="./分布式问题分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>18.</b>
+                        
+                        分布式问题分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="19" data-path="剑指 offer 题解.html">
+            
+                
+                    <a href="./剑指 offer 题解.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>19.</b>
+                        
+                        剑指 offer 题解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="20" data-path="数据库系统原理.html">
+            
+                
+                    <a href="./数据库系统原理.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>20.</b>
+                        
+                        数据库系统原理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="21" data-path="正则表达式.html">
+            
+                
+                    <a href="./正则表达式.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>21.</b>
+                        
+                        正则表达式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="22" data-path="算法.html">
+            
+                
+                    <a href="./算法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>22.</b>
+                        
+                        算法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="23" data-path="计算机操作系统.html">
+            
+                
+                    <a href="./计算机操作系统.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>23.</b>
+                        
+                        计算机操作系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="24" data-path="计算机网络.html">
+            
+                
+                    <a href="./计算机网络.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>24.</b>
+                        
+                        计算机网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="25" data-path="设计模式.html">
+            
+                
+                    <a href="./设计模式.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>25.</b>
+                        
+                        设计模式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="26" data-path="重构.html">
+            
+                
+                    <a href="./重构.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>26.</b>
+                        
+                        重构
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="27" data-path="面向对象思想.html">
+            
+                
+                    <a href="./面向对象思想.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>27.</b>
+                        
+                        面向对象思想
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >秋招面试笔记 </a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x4EE3;&#x7801;&#x98CE;&#x683C;&#x89C4;&#x8303;">&#x4EE3;&#x7801;&#x98CE;&#x683C;&#x89C4;&#x8303;</h1>
+<p>&#x539F;&#x4F5C;&#x8005;github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+<p>PDF&#x5236;&#x4F5C;github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+<ul>
+<li><a href="https://github.com/twitter/commons/blob/master/src/java/com/twitter/common/styleguide.mde" target="_blank">Twitter Java Style Guide</a></li>
+<li><a href="http://google.github.io/styleguide/javaguide.html" target="_blank">Google Java Style Guide</a></li>
+</ul>
+<hr>
+<p>github: <a href="https://github.com/sjsdfg/Interview-Notebook-PDF" target="_blank">https://github.com/sjsdfg/Interview-Notebook-PDF</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./代码可读性.html" class="navigation navigation-prev " aria-label="Previous page: 代码可读性"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./分布式问题分析.html" class="navigation navigation-next " aria-label="Next page: 分布式问题分析"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
